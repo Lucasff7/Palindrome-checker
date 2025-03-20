@@ -15,6 +15,4 @@ This project is a simple **palindrome checker** built using **HTML, CSS, and Jav
 - CSS  
 - JavaScript  
 
----
 
-> This project was inspired by a FreeCodeCamp challenge.
