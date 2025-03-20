@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Palindrome checker</title>
+  </head>
+<body>
+  <main class="checker">
+    <section class="title">
+      <h2> Behold the Palindrome checker</h2>
+      <p>Is it a palindrome?</p>
+    </section>
+    <div class="insert">
+      <label for="text-input">Enter in text to check for a palindrome: </h2>
+      <input id="text-input" type="text" class="input-line" placeholder="Insert your word">
+      <button class="btn" id="check-btn">Check</button>
+      <div class="result-div hidden" id="result">
+        <p class="user-input"></p>
+      </div>
+    </div>
+    <div class="definition">
+      <p><span role="img" aria-label="light-bulb">💡</span>
+      <dfn>Palindrome</dfn> is a word or sequence that reads the same backward as forward. Examples include words like "radar" and "level".<br><dfn>Try to press space!</dfn></p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

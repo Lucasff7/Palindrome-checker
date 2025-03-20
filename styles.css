@@ -1,0 +1,88 @@
+:root {
+    --root-font-size: 16px;
+    font-size: var(--root-font-size);
+    
+    --font-headline: "Roboto Mono", monospace;
+    --font-family: "Lato", sans-serif;
+    }
+  
+  body {
+    background-color: #0a0a23;
+  }
+  
+  .checker{
+    width: 300px;
+    max-height: 1000px;
+    margin: 15px auto 0px;
+    padding: 10px;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .title{
+    background-color: #0a0a23;
+    color:yellow;
+  }
+  
+  .title > h2{
+    font-family: var(--font-headline);
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .title > p{
+    font-family: var(--font--family);
+    font-size: 0.8rem;
+    font-style:italic;
+    text-align: center;
+  }
+  
+  .insert{
+    background-color: white;
+    border-radius:5px;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(75, 0, 130, 0.8);
+    height: 100px;
+    transition: height 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+  
+  .insert > label{
+    display:block;
+    font-size:0.8rem;
+    font-family: var(--font-headline);
+    font-weight: normal;
+    padding-top: 20px;
+  
+  }
+  
+  .input-line {
+    border: none; 
+    border-bottom: 1px solid #007bff; 
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-top:10px;
+  }
+  .btn{
+    border-radius:0.5rem;
+    background-color:rgba(150, 100, 180, 0.8);
+  }
+  .definition{
+    background-color:#F5DEB3;
+    border-radius:5px;
+    margin-top:35px;
+    padding:1px;
+    text-align: center;
+  }
+  .input-line::placeholder {
+    text-align: center;
+  }
+  
+  .results-div {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+  }
+  
+  .hidden {
+    display: none;
+  }
