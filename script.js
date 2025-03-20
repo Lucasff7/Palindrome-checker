@@ -41,7 +41,7 @@ wordInput.addEventListener('keydown', r => {
     checkPalindrome(wordInput.value);
     wordInput.value ='';
   }else if (r.key === ' ') {
-    easterEgg.style.backgroundImage = "url('https://tm.ibxk.com.br/2023/11/21/21132537157200.jpg')";
+    easterEgg.style.backgroundImage = "url('images/Zelda.jpg')";
     easterEgg.style.backgroundSize = "cover";  
     easterEgg.style.backgroundPosition = "center"; 
   }
